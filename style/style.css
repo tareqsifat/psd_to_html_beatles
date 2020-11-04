@@ -1,0 +1,149 @@
+/* header part Start */
+.header{ 
+    background-color: blue;
+}
+
+.header .header-left-content{
+    padding: 10px 0px;
+}
+
+.header .header-left-content p{
+    color: white;
+    font-size: 14px;
+}
+
+.header .header-right-content{
+    padding: 10px 0px;
+
+}
+.header .header-right-content ul{
+    display: flex;
+    justify-content: flex-end;
+}
+/* .header .header-right-content ul li{} */
+.header .header-right-content ul li a{
+    padding: 0px 20px;
+    font-size: 14px;
+    color: white;
+}
+.header .header-right-content ul li a:hover{
+    color: rgb(46, 46, 46);
+}
+/* .header .header-right-content ul li a i{} */
+/* header part end */
+
+/* /////////////////////////////////////////////////////////////////////////// */
+/* Nav part start */
+/* .nav{} */
+
+.nav .logo{ 
+    padding: 20px 0px;
+}
+.nav .logo img{
+    height: 40px;
+}
+.nav .nav-links{
+    padding: 20px 0px;
+}
+.nav .nav-links ul{
+    display: flex;
+    justify-content: flex-end;
+}
+/* .nav .nav-links ul li{} */
+.nav .nav-links ul li a{
+    padding: 10px 8px;
+    font-size: 14px;
+    color:rgb(35,35,35);
+    text-transform: uppercase;  
+}
+.nav .nav-links ul li a:hover{
+    color: rgb(111, 178, 255);
+}
+
+/* Nav part end */
+/* /////////////////////////////////////////////////////////////////////////////// */
+/* Banner part start */
+.Banner{
+    background-image: url(/images/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.Banner .filter{
+    background-color: rgba(0, 0, 0, .35);
+}
+
+.Banner .banner-content{
+    text-align: right;
+    padding: 90px 0px;
+}
+.Banner .banner-content h2{
+    /* margin-top: 85px; */
+    margin-bottom: 15px;
+    font-size: 30px;
+    color: white;
+    text-transform: uppercase;
+    line-height: 30px;
+
+}
+.Banner .banner-content h1{
+    font-size: 40px;
+    font-weight: 900;
+    margin-bottom: 30px;
+    color: white;
+    text-transform: uppercase;
+    line-height: 40px;
+}
+.Banner .banner-content p{
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    color: white;
+}
+.Banner .banner-content ul{ 
+    display: flex;
+    justify-content: flex-end;
+    /* margin-bottom: 85px; */
+}
+/* .Banner .banner-content ul li{} */
+.Banner .banner-content ul li a{
+    padding: 10px 20px;
+    border: 1px solid white;
+    color: white;
+    margin-right: 20px;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.Banner .banner-content ul li a:hover{
+    background-color: rgb(111, 178, 255);
+}
+/* Banner part Ends */
+/* /////////////////////////////////////////////////////////////////////////// */
+/* About part Start */
+.aboutPic{
+    padding: 60px 0px;
+}
+.aboutPic .imagestyle{
+    margin-top: 65px;
+}
+.aboutPic .aboutText{
+    margin-bottom:30px;
+}
+.aboutPic .aboutText h1{
+    font-size: 24px;
+    text-transform: uppercase;
+}
+.aboutPic .aboutText img{
+    margin-bottom: 85px;
+    margin-top: -5px;
+}
+.aboutPic .aboutText p{
+    font-size: 14px;
+    margin-bottom: 40px;
+}
+.aboutPic .aboutText p{
+    font-size: 14px;
+}
+/* About part Ends */
+
+
+
