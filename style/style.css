@@ -118,32 +118,146 @@
 }
 /* Banner part Ends */
 /* /////////////////////////////////////////////////////////////////////////// */
-/* About part Start */
-.aboutPic{
+/* About part Start  */
+.about_us{
     padding: 60px 0px;
 }
-.aboutPic .imagestyle{
-    margin-top: 65px;
+.about_us .imagestyle{
+    margin-top: 40px;
 }
-.aboutPic .aboutText{
-    margin-bottom:30px;
+.about_us .imagestyle img{
+    width: 100%;
 }
-.aboutPic .aboutText h1{
-    font-size: 24px;
-    text-transform: uppercase;
+
+.about_us .aboutText{
+    margin-top: 85px;
+
 }
-.aboutPic .aboutText img{
-    margin-bottom: 85px;
-    margin-top: -5px;
-}
-.aboutPic .aboutText p{
+.about_us .aboutText P{
     font-size: 14px;
-    margin-bottom: 40px;
+    line-height: 24px;
+    text-align: left;
+    margin-bottom: 30px;
 }
-.aboutPic .aboutText p{
-    font-size: 14px;
-}
+.about_us .aboutText P{}
+
+
 /* About part Ends */
 
+/* common heading start */
+ .common-heading{
+     text-align: center;
+ }
+ .common-heading h2{
+     font-size: 24px;
+     color: #353535;
+     text-transform: uppercase;
+    line-height: 24px;
+    position: relative;
+    display: inline-block;
+ }
+ .common-heading h2::before{
+     position: absolute;
+     content: '';
+     height: 4px;
+     width: 40%;
+     /* background-color: blueviolet; */
+     background-image: url(../images/under-line.png);
+     bottom: -5px;
+     left: 0px;
+     background-size: contain;
+ }
+
+/* common heading end */
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* Service part start */
+.services{}
+.services .service_body{
+    background: #f1f1f1;
+    text-align: center;
+    position: relative;
+    padding-top: 40px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    margin-top: 65px;
+}
+.services .service_body:hover{
+    box-shadow: 0px 0px 6px rgba(35, 35, 35, .4);
+    transition: all linear .3s;
+    -webkit-transition:all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+}
+.services .service_body:hover .service_icon{
+    box-shadow: 0px 0px 6px rgba(35, 35, 35, .4);
+    background-color: #5bc5f4;
+    transition: all linear .3s;
+    -webkit-transition:all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+}
+.services .service_body .service_icon{
+    height: 75px;
+    width: 75px; 
+    background-color: white;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    line-height: 75px;
+    position: absolute; 
+    top:-33px;
+    left:50%;
+    transform: translate(-50%);
+}
+.services .service_body .service_icon img{
+    height: 40px;
+    margin-top: 20px;
+    
+}
+.services .service_body .service_icon::before{
+    height: 65px;
+    width: 65px;
+    position: absolute;
+    content: '';
+    border:2px solid #f1f1f1;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius:50%;
+    -ms-border-radius:50%;
+    -o-border-radius:50%;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%, -50%);
+    /* -webkit-transform: translate(-50% ,50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%); */
+}
+.services .service_body h2{
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #353535;
+    line-height: 24px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+.services .service_body p{
+    font-size: 13px;
+    line-height: 24px;
+}
+
+
+/* Service part end */
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* portfolio past start */
+.portfolio{}
+.portfolio .portfolio-gallary{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+/* portfolio past end */
 
 
