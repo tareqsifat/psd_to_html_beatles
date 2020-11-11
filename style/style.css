@@ -117,10 +117,11 @@
     background-color: rgb(111, 178, 255);
 }
 /* Banner part Ends */
-/* /////////////////////////////////////////////////////////////////////////// */
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////// */
 /* About part Start  */
 .about_us{
-    padding: 60px 0px;
+    padding-top: 60px;
+    padding-bottom: 30px;
 }
 .about_us .imagestyle{
     margin-top: 40px;
@@ -139,13 +140,14 @@
     text-align: left;
     margin-bottom: 30px;
 }
-.about_us .aboutText P{}
+/* .about_us .aboutText P{} */
 
 
 /* About part Ends */
 
 /* common heading start */
  .common-heading{
+     margin-bottom: 5px;
      text-align: center;
  }
  .common-heading h2{
@@ -169,9 +171,11 @@
  }
 
 /* common heading end */
-/* ///////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 /* Service part start */
-.services{}
+.services{
+    padding:30px 0px;
+}
 .services .service_body{
     background: #f1f1f1;
     text-align: center;
@@ -251,13 +255,116 @@
 
 
 /* Service part end */
-/* ////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 /* portfolio past start */
-.portfolio{}
+.portfolio{
+    padding: 30px 0px;
+}
 .portfolio .portfolio-gallary{
     margin-top: 30px;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
+    position: relative;
+    overflow: hidden;
+}
+.portfolio .portfolio-gallary .overlay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0,0, .6);
+    top:  100%;
+    /* left: 100%; */
+    /* transform: scale(0); */
+    transition: all linear 0.3s;
+    opacity: 0;
+    visibility: hidden;
+}
+.portfolio .portfolio-gallary:hover .overlay{
+    /* transform: scale(1); */
+    top:0%;
+    opacity: 100%;
+    visibility: visible;
+    /* left: 0%; */
+}
+
+.portfolio .portfolio-gallary .overlay a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: #5bc5f4;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+.portfolio .portfolio-gallary .overlay a i{
+    color: white;
+    font-size: 20px; 
 }
 /* portfolio past end */
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* OurTeam part start */
+.team{
+    padding: 30px 0px;
+}
+.team .team-picture{
+    text-align: center;
+    margin-bottom: 5px;
+}
+  
+.team .team-picture .image{
+    position: relative;
+    margin-top: 30px;
+    overflow: hidden;
+}
+.team .team-picture .image ul{
+    position: absolute;
+    top: 0;
+    right: -30%;
+    background-color:rgba(0, 0,0, .6);
+    height: 98%;
+    width: 30%;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+    transition: all linear .3s;
+}
+.team .team-picture .image:hover ul{
+    right: 0;
+}
+/* .team .team-picture .image ul li{} */
+.team .team-picture .image ul li a{
+    display: inline-block;
+    border: 1px solid white;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    color: white;
+}
+.team .team-picture .image ul li a:hover{
+    border: 1px solid #5bc5f4;
+    color: #5bc5f4;
+}
+/* .team .team-picture .image ul li a i{} */
+.team .team-picture .image img{
+    width: 100%;
+}
+
+.team .team-picture h3{
+    font-size: 16px;
+    line-height: 16px;
+    margin-top: 10px;
+}
+.team .team-picture h4{
+    font-size:  14px;
+    line-height: 10px;
+    margin-top: 10px;
+    font-weight: 400;
+}
+/* OurTeam part end */
 
 
