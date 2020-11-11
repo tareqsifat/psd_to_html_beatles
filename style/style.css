@@ -64,7 +64,7 @@
 /* /////////////////////////////////////////////////////////////////////////////// */
 /* Banner part start */
 .Banner{
-    background-image: url(/images/banner.jpg);
+    background-image: url(../images/banner.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
